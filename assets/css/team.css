@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.img-hov {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 34%;
+}
+  
+section.banner {
+    position: relative;
+}
+
+  
+.nav-link:hover{
+    color: #F47522;
+}
+
+a.login, a.signup, a.nav-text{
+    font-family: Nova-semi-bold;
+}
+
+a.signup {
+    background-color: #f47522;
+    border-radius: 44px;
+  }
+
+body {
+    background: url("../images/about/about-bg.png") no-repeat;
+    background-size : 100% 100%;
+    height: 100vh;
+}
+  
+.head{ 
+    color: #F47522; 
+    font-size: 60px;
+    font-family: Novabold;
+}
+
+.about-img{
+    height: 85vh;
+}
+
+.text-approach{
+    margin: 4% 0;
+}
+
+.approach-img{
+    background: url("../images/about/approach-bg.png") no-repeat;
+    background-size:  100% 100%;
+    height: 100vh;
+}
+  
+.approach-card{
+    background: linear-gradient(0deg, #18224D, #243168);
+    color: #ffffff;
+    border: none;
+    height: 40vh;
+}
+  
+
+
+.card2 {
+    height: 42vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 98% 100%, 60% 98%, 0% 96%, 0% 70%, 0% 35%, 0 0);
+}
+
+.card3 {
+    height: 46vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 98% 99%, 60% 96%, 0% 91%, 0% 70%, 0% 35%, 0 0);
+}
+
+.card4{
+    height:54vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 98% 100%, 60% 93%, 0% 85%, 0% 70%, 0% 35%, 0 0);
+}
+
+img.card-approach {
+    margin-left: 5%;
+}
+
+.card-body {
+    padding: 1rem 10%;
+}
+
+section.unique {
+    margin-top: -10%;
+}
+  
+.work1, .work4 {
+    position: relative;
+}
+  
+.wrk1-img{
+    margin-left: 4%;
+}
+  
+.wrk2-img{
+    margin-left: -24%;
+    width: 402px;
+}
+
+.work1-txt {
+    content: '';
+    position: absolute;
+    top: 16%;
+    left: 14%;
+    width: 67%;
+}
+  
+img.wrk3-img {
+    margin-top: -12%;
+    margin-left: -4%;
+    width: 400px;
+}
+  
+img.wrk4-img {
+    margin-top: -30%;
+    margin-left: -36%;
+}
+  
+.work4-txt {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 68%;
+}
+
+.signfyn-about {
+    color: #243168;
+    font-family: Novabold;
+    font-size: 2.5rem;}
+
+h3.unique-heading {
+  font-size: 24px;
+  color: #F47522;
+  
+}
+
+p.unique-para {
+  color: #343434;
+}
+
+p.job {
+    font-size: 26px;
+    font-family: altLight;
+}
+
+a.mail{
+    font-family: Nova-semi-bold;
+    color: #3535CE;
+}
+
+#mob-culture{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   body{
+      background: url("../images/about/about-bg.png") no-repeat 70%;
+      background-size: cover;
+    }
+
+    .img-hov {
+        display: none;
+    }
+
+    .approach-img{
+        background: #233066;
+        height: 240vh;
+    }
+
+    .approach-card{
+        height: 50vh;
+    }
+
+    .card2, .card3, .card4 {
+        height: 50vh;
+        clip-path: none;
+    }
+
+    section.unique {
+        margin-top: 10%;
+    }
+
+    #mob-culture{
+        display: block;
+    }
+
+    #culture{
+        display: none;
+    }
+    .wrk1-img, .wrk2-img{
+        margin-left: 0;
+    }
+
+    .wrk1-img{
+        margin-left: 0;
+        height: 400px;
+        width: 100%;
+    }
+    
+    img.wrk3-img {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    img.wrk4-img {
+        margin-top: -6%;
+        margin-left: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .work4-txt {
+        left: 12%;
+        top: 30%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px)  {
+    .text-approach{
+        margin: 1% 0;
+    }
+
+    .card1 {
+        height: 53vh;
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 93%, 98% 93%, 60% 93%, 0% 95%, 0% 70%, 0% 35%, 0 0);
+    }
+    .card2 {
+        height: 52vh;
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 98% 99%, 60% 97%, 0% 95%, 0% 70%, 0% 35%, 0 0);
+    }
+    
+    .card3 {
+        height: 59vh;
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 117% 99%, 60% 91%, 0% 87%, 0% 70%, 0% 35%, 0 0);
+    }
+    
+    .card4{
+        height: 77vh;
+        clip-path: polygon(50% 0%, 100% 0, 100% 91%, 60% 83%, 25% 76%, 36% 79%, 15% 76%, 0 74%, 0 0);
+    }
+
+    .wrk1-img{
+        margin-left: 4%;
+    }
+
+    .wrk2-img{
+        margin-left: -26%;
+        width: 480px;
+    }
+
+    img.wrk4-img {
+        margin-top: -30%;
+        margin-left: -38%;
+    }
+
+    img.wrk3-img {
+        margin-top: -12%;
+        margin-left: -4%;
+        width: 480px;
+    }
+     
+}
+
+
+@media only screen and (min-width: 1500px){
+    .wrk2-img{
+        margin-left: -26%;
+        width: 560px;
+    }
+
+    img.wrk3-img {
+        margin-top: -12%;
+        margin-left: -4%;
+        width: 562px;
+    }
+}

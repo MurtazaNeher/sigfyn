@@ -1,0 +1,44 @@
+@font-face {
+    font-family: altLight;
+    src: url('../fonts/Proxima\ Nova\ Alt\ Light.otf') ;
+}
+
+@font-face {
+    font-family: altBold;
+    src: url('../fonts/Proxima\ Nova\ Alt\ Bold.otf') ;
+}
+
+@font-face {
+    font-family: altThin;
+    src: url('../fonts/Proxima\ Nova\ Alt\ Thin.otf') ;
+}
+
+@font-face {
+    font-family: Novablack;
+    src: url('../fonts/Proxima\ Nova\ Black.otf') ;
+}
+
+@font-face {
+    font-family: Novabold;
+    src: url('../fonts/Proxima\ Nova\ Bold.otf') ;
+}
+
+@font-face {
+    font-family: Nova-extra-bold;
+    src: url('../fonts/Proxima\ Nova\ Extrabold.otf') ;
+}
+
+@font-face {
+    font-family: Novaregular;
+    src: url('../fonts/Proxima\ Nova\ Regular.otf') ;
+}
+
+@font-face {
+    font-family: Nova-semi-bold;
+    src: url('../fonts/Proxima\ Nova\ Semibold.otf') ;
+}
+
+@font-face {
+    font-family: Novathin;
+    src: url('../fonts/Proxima\ Nova\ Thin.otf') ;
+}

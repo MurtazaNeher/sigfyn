@@ -1,0 +1,60 @@
+
+section.download {
+    background: linear-gradient(to bottom, #243168, #121934);
+}
+  
+.app {
+    padding: 10% 0;
+    margin: 10% 0;
+}
+  
+p.free {
+    font-size: 36px;
+    font-weight: 600;
+}
+  
+p.bank {
+    font-size: 22px;
+}
+  
+footer, .footer-content, .copyrights{
+    background-color: #121934;
+}
+  
+ul.footer-nav1 li, ul.footer-nav2 li, ul.footer-nav3 li, ul.footer-nav4 li, ul.footer-nav5 li{
+    list-style: none;
+    font-size: 14px;
+    margin: 5px 0;
+}
+  
+ul.anchor li a{
+    color: #c9c9c9;
+}
+  
+li.foot-head{
+    font-weight: 600;
+}
+  
+hr:not([size]) {
+    height: 2px;
+}
+  
+.foot-content p {
+    color: #c9c9c9;
+    font-size: 13px;
+    margin-bottom: 2%;
+}
+  
+.foot-content {
+    margin-bottom: 6%;
+}
+  
+  
+.cnt-p {
+    font-size: 12px;
+    color: #c9c9c9  ;
+}
+
+.foot-gif{
+    height: 450px;
+}

@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-text, a.signup{
+  font-family: Nova-semi-bold;
+}
+
+.nav-link:hover{
+  color: #F47522;
+}
+
+
+a.signup {
+  background-color: #f47522;
+  border-radius: 44px;
+}
+
+body {
+  background: url("../images/banner.png") no-repeat;
+  background-size : 100% 100%;
+  height: 100vh;
+}
+
+.head{ 
+  color: #F47522; 
+  font-size: 45px;
+  font-family: Novabold;
+}
+
+.btn-color {
+  background-color: #F47522;
+  outline: none;
+  border-radius: 44px;
+  font-family: Nova-semi-bold;
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.post2, .post3, .post4, .post5, .post6, .post7{
+  display: none;
+}
+
+.algo{
+  font-family: Novaregular;
+  font-size: 16px;
+}
+
+section.portfolio {
+  margin-top: 7%;
+}
+
+.img-hov {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 34%;
+}
+
+section.banner {
+  position: relative;
+}
+
+.port-drop{
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.port-drop-car{
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+option{
+  cursor: pointer;
+}
+
+.port-drop:focus{
+
+  box-shadow: none;
+}
+
+ul.sigfyn-abt li {
+  list-style: none;
+  height: 40px;
+}
+
+.point{
+  cursor: pointer;
+  font-family: Novaregular;
+  transition: all .4s;
+  font-size: 18px;
+}
+
+.point:hover{
+  font-family: Nova-semi-bold;
+  color: #F47522;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7{
+  width: 40px;
+}
+
+.heading{
+    color: #243168;
+    font-family: Novabold;    
+}
+
+img.poster3 {
+  width: 400px;
+}
+
+img.poster {
+  width: 250px;
+}
+
+.posts {
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.post-para1, .post-para2, .post-para3, .post-para4, .post-para5, .post-para6, .post-para7 {
+  position: absolute;
+  left: 15%;
+  bottom: 1%;
+}
+
+.post-para2, .post-para3, .post-para4, .post-para5, .post-para6, .post-para7 {
+  display: none;
+}
+
+.post1, .post2, .post3, .post4, .post5, .post6, .post7{
+  width: 564px;
+  height:286px;
+}
+
+
+.portfolio-img{
+background: url("../images/portfolio-bg.png") no-repeat 50% 50%;
+background-size: 100% 100%;
+}
+
+a.select {
+  font-size: 14px;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+.anim {
+  position: relative;
+  height: 100%;
+}
+
+.drop {
+  height: 489px;
+}
+
+.button {
+  margin-top: 6%;
+}
+
+.car {
+  content: '';
+  position: absolute;
+  bottom: 0;
+}
+
+.car img{
+  width: 600px;
+}
+
+.man {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.man img{
+  height: 360px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 76px;
+    height: 25px;
+}
+
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #34343421;
+    -webkit-transition: .4s;
+    transition: .6s;
+}
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #000000;
+    -webkit-transition: .4s;
+    transition: .6s;
+  }
+  
+  input:checked + .slider {
+    background-color: #34343421;
+  }
+  
+ 
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(51px);
+  }
+  
+  /*------ ADDED CSS ---------*/
+  .on
+  {
+    display: none;
+  }
+  
+  .on
+  {
+    color: #000000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 49%;
+    left: 40%;
+    font-size: 10px;
+  }
+  .off
+  {
+    color: #000000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 49%;
+    left: 58%;
+    font-size: 10px;
+  }
+
+  input:checked+ .slider .on
+  {display: block;}
+  
+input:checked + .slider .off
+  {display: none;}
+  
+  /*--------- END --------*/
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;}
+
+input#togBtn {
+        appearance: none;
+        -webkit-appearance: none;
+}
+
+.signfyn-about {
+  color: #243168;
+  font-family: Novabold;
+}
+
+h3.unique-heading {
+  font-size: 24px;
+  color: #F47522;
+  font-family: Novabold;
+}
+
+p.unique-para {
+  color: #343434;
+}
+
+
+  
+/*Mobile View for Portfolio */
+@media only screen and (max-width: 400px) {
+  span.fam {
+    margin-left: 43px;
+  }
+  .point1{
+    margin-bottom: 2%;
+  }
+  li.point1 {
+    margin-bottom: 10%;
+  }
+  .car{
+    position: absolute;
+    margin-left: 15%;
+    left: 0;
+    right: 0px;
+    bottom: 10px;
+  }
+  .man{
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* body{
+    background: url("../images/banner.png") no-repeat 90%;
+    background-size:  cover;
+  } */
+  
+  .drop{
+    margin-top: 8%;
+  }
+
+  .anim{
+    margin-top:3%;
+  }
+
+  .car{
+    position: absolute;
+    margin-left: 10%;
+    left: 0 ;
+    right: 45px;
+    bottom: 10px;
+  }
+  .man img{
+    height: 240px !important;
+  }
+
+  .man{
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+  }
+
+  .portfolio-img{
+    background: url("../images/portfolio-bg.png") no-repeat 90% 50%;
+    background-size: cover;
+  }
+
+  .heading{
+    font-size: 22px;
+  }
+
+  .img-hov {
+    display: none;
+  }
+  .post1, .post2, .post3, .post4, .post5, .post6, .post7{
+    width: auto;
+  }
+
+  img.poster4 {
+    width: 195px;
+  }
+
+  .post-para1, .post-para2, .post-para3, .post-para4, .post-para5, .post-para6, .post-para7 {
+    position: static;
+    margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* body{
+    background: url("../images/banner.png") no-repeat 90%;
+    background-size:  cover;
+  } */
+  
+  .drop{
+    margin-top: 8%;
+  }
+
+  .anim{
+    margin-top:3%;
+  }
+
+  .car{
+    position: absolute;
+    margin-left: 10%;
+    right: 0px !important;
+    bottom: 10px;
+  }
+  .man img{
+    height: 330px;
+  }
+
+  .man{
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+  }
+
+  .portfolio-img{
+    background: url("../images/portfolio-bg.png") no-repeat 90% 50%;
+    background-size: cover;
+  }
+
+  .heading{
+    font-size: 22px;
+  }
+
+  .img-hov {
+    display: none;
+  }
+  .post1, .post2, .post3, .post4, .post5, .post6, .post7{
+    width: auto;
+  }
+
+  img.poster4 {
+    width: 195px;
+  }
+
+  .post-para1, .post-para2, .post-para3, .post-para4, .post-para5, .post-para6, .post-para7 {
+    position: static;
+    margin-bottom: 2%;
+  }
+}
+  
+
+
+
+
